@@ -1,6 +1,6 @@
 FROM tiangolo/uwsgi-nginx-flask:python3.6
 
-COPY requirements.txt /
+COPY requirements.txt / 
 
 WORKDIR /
 
